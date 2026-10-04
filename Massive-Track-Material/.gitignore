@@ -1,0 +1,10 @@
+# Your API key and raw API responses never leave your machine
+.env
+.massive_cache/
+
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# build artefact of build_writeup.py
+writeup.html
