@@ -2,11 +2,15 @@
 
 This is our submission to the Massive challenge. 
 
-We pursue two approaches that utilize data from the 8-K filings as well as the provided options trading strategies. We aggregated these two into one final writeup, but kept the exploration notebooks separate as directed by Christian (the GOAT; thank you so much for answering a bajillion questions).
+We pursued two approaches that utilize data from the 8-K filings as well as the provided options trading strategies. 
 
-Below are instructions on how to run each of the notebooks. 
+The Biotech Trial Results approach is our final submission. 
 
-## 1. Small-cap Biotech Trial Results
+Huge thanks to Christian for answering all of our questions throughout the process. 
+
+Below are instructions on how to run the notebook. 
+
+## Small-cap Biotech Trial Results
 
 ### Run it as is
 
@@ -44,54 +48,17 @@ The model is pinned (`jev-1.13.0`), so live labels are on the same scale as the 
 If the key is missing, the notebook stops at the first uncached filing with a message saying so.
 
 
-## 2. Factory Disruptions Against Satellite Data
+## Factory Disruptions Against Satellite Data
 
-### Run it as is
+Although this is not the approach we ultimately submitted, we still want to state that we're proud of this hypothesis. 
 
-1. Same setup as above: `./setup.sh`, kernel "Python (Gator Quant Hacks .venv)", `MASSIVE_API_KEY=...` in `.env`.
-   No other keys are needed.
-2. Keep `disruption_events.json` in the same folder as the notebook. It holds the 45 disruption 8-Ks
-   (2020-01 to 2026-09), each pre-labelled `brief` / `persistent` / `unknown` from NASA FIRMS.
-3. Open the notebook from its own folder, pick the kernel, run all cells.
+**Thesis**: 8-K filings contain sections that refer to facility closures due to outlier conditions, such as fires. However, the options market often misprices the severity of such events. 
 
-Section 1 should print `API key loaded (ends xxxx)` and section 2 `Events path: ... (exists=True)`.
+Once such an 8-K filing is identified, we can use satellite imagery and heat data to determine the actual severity of the incident. Then, we can determine if the market is mispricing the incident and trade accordingly. 
 
+The `Disruption-Events-Strategy/` directory contains the functioning notebook for this approach. However, the approach currently does not work for edited time windows, which is something we were told the judges would do. 
+This is because the satellite information we accessed is hard to obtain for arbitrary time frames. 
 
-### Run it on a new time window
+Nonetheless, we hope that our hypothesis and work on this section will contribute to the creativity aspect of this challenge. 
 
-In section 2 (Configuration), set
-
-    HOLDOUT_START, HOLDOUT_END = "<start>", "<end>"
-    RUN_HOLDOUT = True
-
-and run all cells. The last section runs the whole chain on that window through `run_study(start, end)`:
-events → sessions → option chains → P&L → scoreboard, with every parameter frozen, next to the
-in-sample board.
-
-**NOTE**: Unlike the biotech notebook, this one cannot label new events live. The window is limited
-to what is already in `disruption_events.json`. See below.
-
-### Window constraints
-
-The `brief` / `persistent` label on each event comes from NASA FIRMS satellite hotspot data at the
-geocoded plant site. That labelling was run offline, once, and its results are stored in
-`disruption_events.json`. The notebook reads those stored labels; it does not query NASA, and
-`FIRMS_MAP_KEY` is not needed to run it.
-
-The reason it is offline: labelling a new filing needs the plant located from the filing text
-(OpenStreetMap geocoding), a FIRMS query for that site, and the right FIRMS product for the date
-(near-real-time for recent dates, standard-processing for older ones). That pipeline lives in our
-research repo, not in this notebook.
-
-What this means for a new window:
-
-- Inside 2020-01 to 2026-09 the notebook runs on whichever `brief` events fall in the window.
-  Expect small counts: the default sealed window (2026-01 to 2026-06) has 3 events before option
-  liquidity drops.
-- Outside that range there are no labelled events, so the notebook prints `n = 0` and skips the plot.
-  It does not fail.
-- Leave `REFRESH_EVENTS = False`. It re-pulls 8-K text from Massive but has no satellite step, so
-  every new event is `unknown` and nothing trades.
-
-If you want to test a window past 2026-09, we are happy to regenerate the event file for that window
-and send it over.
+Thanks!
