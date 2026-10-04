@@ -1,0 +1,40 @@
+# Environments & credentials (NEVER COMMIT)
+.env
+**/.env
+*.env
+**/*.env
+
+# Python artifacts
+__pycache__/
+**/__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+**/*.egg-info
+
+# Virtual environments
+.venv/
+**/.venv/
+env/
+venv/
+
+# Logs
+*.log
+**/*.log
+*.log.*
+**/*.log.*
+
+# Generated reports & artifacts
+*_report*.html
+**/*_report*.html
+
+# Event-study caches / trade dumps (committed event JSON is OK)
+tracks/**/data/cache/
+tracks/**/data/results/
+infrastructure/data/
+
+# OS metadata
+.DS_Store
+Thumbs.db
