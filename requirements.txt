@@ -1,0 +1,11 @@
+# Whale footprints · Python 3.11+
+backtrader>=1.9.78.123        # backtest engine (Webull bars feed into it)
+webull-openapi-python-sdk>=3.0.0
+databento>=0.34.0
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pyarrow>=14
+requests>=2.31
+python-dotenv>=1.0

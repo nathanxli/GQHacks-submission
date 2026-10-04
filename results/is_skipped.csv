@@ -1,0 +1,173 @@
+signal_date,news_status,whale_premium,one_sided,spike_ratio,ticker,reason
+2024-01-05,uncovered,194805.0,1.0,21.320388349514563,CRNX,no Webull bar on signal day
+2024-01-08,uncovered,152000.0,1.0,15.571090047393366,AVDL,no Webull bar on signal day
+2024-01-08,uncovered,975435.0,0.8128065939811469,191.2037037037037,FOLD,no Webull bar on signal day
+2024-01-10,uncovered,238630.0,0.7186858316221766,4.767699115044247,AVDL,no Webull bar on signal day
+2024-01-11,uncovered,1693644.0,0.6987218093058518,17.91946308724832,SAGE,no Webull bar on signal day
+2024-01-19,uncovered,1270780.0,0.6804482286469727,37.88059701492537,BPMC,no Webull bar on signal day
+2024-01-19,uncovered,80631.0,1.0,28.785714285714285,CRNX,no Webull bar on signal day
+2024-02-08,uncovered,337260.0,1.0,15.296160877513712,CTLT,no Webull bar on signal day
+2024-02-09,uncovered,88970.0,1.0,3.601846508944028,TEVA,no Webull bar on signal day
+2024-02-16,uncovered,760000.0,1.0,16.274111675126903,ITCI,no Webull bar on signal day
+2024-02-16,uncovered,179680.0,0.666073018699911,8.057282145033517,RXRX,position limit
+2024-02-20,uncovered,424083.0,1.0,12.923857868020304,ITCI,no Webull bar on signal day
+2024-02-21,uncovered,789280.0,1.0,143.06849315068493,RNA,no Webull bar on signal day
+2024-02-22,uncovered,193878.0,1.0,20.69035532994924,ITCI,no Webull bar on signal day
+2024-02-29,uncovered,260300.0,0.7118709181713407,14.180710659898477,ARWR,already holding
+2024-03-01,uncovered,552000.0,0.9021739130434783,38.31746031746032,SLNO,no Webull bar on signal day
+2024-03-01,uncovered,169467.0,1.0,13.387788778877889,AVDL,no Webull bar on signal day
+2024-03-07,uncovered,143530.0,1.0,3.5698234349919744,PRGO,already holding
+2024-03-08,uncovered,60000.0,1.0,25.45945945945946,ATXS,no Webull bar on signal day
+2024-03-14,uncovered,234240.0,1.0,4.434137291280148,BHVN,already holding
+2024-03-14,uncovered,238770.0,0.7794949114210328,3.756874095513748,BMY,already holding
+2024-03-20,uncovered,378690.0,0.7162850880667565,3.846774193548387,ABBV,position limit
+2024-04-04,uncovered,80000.0,1.0,42.08360128617363,APLT,no Webull bar on signal day
+2024-04-05,uncovered,65514.0,1.0,9.472118959107808,SAGE,no Webull bar on signal day
+2024-04-15,uncovered,367590.0,0.8626458826409859,8.540469973890339,AVDL,no Webull bar on signal day
+2024-04-16,uncovered,1049800.0,0.7058487330920176,17.34234234234234,NVS,already holding
+2024-04-16,uncovered,1050000.0,1.0,200.8,ACLX,no Webull bar on signal day
+2024-04-18,uncovered,121440.0,1.0,3.8313998453209592,LQDA,already holding
+2024-04-19,uncovered,419160.0,0.8282278843401087,27.958333333333332,NVS,already holding
+2024-04-30,uncovered,3015000.0,0.7512437810945274,99.96825396825396,CYTK,already holding
+2024-05-16,uncovered,540025.0,1.0,24.379888268156424,SAGE,no Webull bar on signal day
+2024-06-06,uncovered,62369.99999999999,1.0,136.30188679245282,CYTK,already holding
+2024-06-07,uncovered,371250.0,1.0,29.971014492753625,AKRO,no Webull bar on signal day
+2024-06-11,uncovered,763615.0,0.8499636596976224,36.950819672131146,BPMC,no Webull bar on signal day
+2024-06-20,uncovered,1134389.0,1.0,20.496703296703295,SAGE,no Webull bar on signal day
+2024-06-21,uncovered,814406.0,1.0,5.098841172460804,ABT,position limit
+2024-06-21,uncovered,64500.0,1.0,4.557031607879066,GERN,position limit
+2024-06-24,uncovered,2257535.0,0.6502424104166713,3.188262910798122,JNJ,position limit
+2024-06-25,uncovered,5365000.0,0.8475302889095992,371.66101694915255,CERE,no Webull bar on signal day
+2024-07-09,uncovered,61250.0,1.0,4.256,BNTX,already holding
+2024-07-18,uncovered,300000.0,0.7,9.232558139534884,CERE,no Webull bar on signal day
+2024-07-22,covered_opposite,528909.0,1.0,3.399209486166008,TEVA,no Webull bar on signal day
+2024-08-05,uncovered,50320.00000000001,1.0,20.34878587196468,BNTX,already holding
+2024-08-12,uncovered,1227900.0,0.9159540679208404,5.758558558558558,SAGE,no Webull bar on signal day
+2024-08-16,uncovered,137250.0,1.0,3.04307116104869,IOVA,already holding
+2024-08-16,uncovered,102910.0,1.0,3.577663068981699,TEVA,no Webull bar on signal day
+2024-08-16,uncovered,62122.0,1.0,106.8,COGT,position limit
+2024-08-16,uncovered,3635000.0,0.6740027510316369,29.484988452655887,EXEL,position limit
+2024-08-19,uncovered,533091.0,0.7521792714564679,134.11111111111111,TERN,no Webull bar on signal day
+2024-08-21,uncovered,810370.0,1.0,165.1,NUVL,no Webull bar on signal day
+2024-08-22,covered_neutral,162308.0,0.6661902062744904,9.828249648052555,TEVA,no Webull bar on signal day
+2024-08-27,uncovered,107300.0,1.0,8.984848484848484,ELAN,already holding
+2024-08-28,uncovered,129600.0,1.0,20.91390728476821,IONS,already holding
+2024-09-06,uncovered,469775.0,1.0,26.19607843137255,APLS,no Webull bar on signal day
+2024-09-18,uncovered,185000.0,1.0,8.775652173913043,APLS,no Webull bar on signal day
+2024-10-02,uncovered,92500.0,1.0,22.495726495726498,RCKT,already holding
+2024-10-04,uncovered,144000.0,1.0,6.1347826086956525,VRNA,no Webull bar on signal day
+2024-10-08,uncovered,2871000.0,0.6828631138975967,132.0,PRAX,already holding
+2024-10-08,uncovered,133400.0,1.0,6.0875,VRNA,no Webull bar on signal day
+2024-10-09,uncovered,3996056.0,0.6590318053600851,262.3478260869565,PRAX,already holding
+2024-10-11,covered_opposite,282050.0,0.7573125332387874,9.275737940964722,TEVA,no Webull bar on signal day
+2024-10-30,uncovered,90250.0,1.0,3.221499783268314,APLT,no Webull bar on signal day
+2024-11-05,uncovered,253420.0,1.0,51.25581395348837,ACLX,no Webull bar on signal day
+2024-11-11,uncovered,1994035.0,0.8169014084507042,25.64969450101833,ADMA,already holding
+2024-11-12,uncovered,92565.0,1.0,4.2045760430686405,ARQT,already holding
+2024-11-13,covered_opposite,5151468.0,0.9533503847835219,3.8636664460622105,MRK,already holding
+2024-11-14,uncovered,183500.0,0.7220708446866485,8.839667977282657,TEVA,no Webull bar on signal day
+2024-11-19,uncovered,378768.0,1.0,18.90909090909091,SRRK,already holding
+2024-11-22,uncovered,4371305.0,1.0,14.162544169611309,BPMC,no Webull bar on signal day
+2024-11-22,uncovered,175000.0,1.0,163.5625,CTLT,no Webull bar on signal day
+2024-12-19,uncovered,570000.0,1.0,576.6666666666666,HROW,already holding
+2024-12-20,uncovered,1865710.0,0.6537082397585906,11.261648745519713,APLS,no Webull bar on signal day
+2025-01-03,uncovered,542376.0,1.0,6.108108108108108,SLNO,no Webull bar on signal day
+2025-01-07,uncovered,2449847.0,0.6545731223215164,7.281190626979101,NVAX,already holding
+2025-01-13,uncovered,67000.0,1.0,9.38150289017341,SWTX,no Webull bar on signal day
+2025-01-17,uncovered,89180.0,1.0,71.64102564102564,MRUS,no Webull bar on signal day
+2025-01-21,uncovered,51700.0,1.0,3.003264417845484,SWTX,no Webull bar on signal day
+2025-02-06,covered_opposite,2576684.0,0.7482776312500873,3.5071366152053596,PFE,already holding
+2025-02-07,covered_opposite,927190.0,0.8592543060214196,3.3620739877658026,PFE,already holding
+2025-02-14,uncovered,483600.0,0.8064516129032258,23.46306592533757,OGN,already holding
+2025-02-19,uncovered,352500.0,1.0,7.014245014245014,SAGE,no Webull bar on signal day
+2025-02-21,uncovered,963184.0,0.6674737121879101,3.682217714672076,BBIO,already holding
+2025-02-24,uncovered,862620.0,0.8786255825276483,12.867309117865084,VRNA,no Webull bar on signal day
+2025-03-05,uncovered,381000.0,0.8031496062992126,17.984251968503937,SLNO,no Webull bar on signal day
+2025-03-13,uncovered,980000.0,1.0,200.0,RNA,no Webull bar on signal day
+2025-03-17,uncovered,88200.0,1.0,10.54468085106383,BPMC,no Webull bar on signal day
+2025-03-25,uncovered,269700.0,1.0,29.529411764705884,MRUS,no Webull bar on signal day
+2025-03-26,uncovered,196000.0,1.0,37.28813559322034,ITCI,no Webull bar on signal day
+2025-03-27,uncovered,369333.0,0.8307760205559752,8.010802469135802,ARDX,already holding
+2025-03-31,uncovered,457652.0,1.0,3.968804159445407,VRNA,no Webull bar on signal day
+2025-04-08,uncovered,122380.0,1.0,10.523605150214593,APGE,no Webull bar on signal day
+2025-04-09,uncovered,2226360.0,1.0,24.876404494382022,APLS,no Webull bar on signal day
+2025-04-11,covered_opposite,187052.0,0.7201206081731283,9.572519083969466,TEVA,no Webull bar on signal day
+2025-04-11,covered_opposite,102225.0,1.0,11.728813559322036,BHVN,already holding
+2025-04-14,covered_opposite,2181546.0,0.8148148148148149,44.63775780010577,TEVA,no Webull bar on signal day
+2025-04-22,covered_opposite,141000.0,1.0,13.233695652173912,ACAD,already holding
+2025-04-23,uncovered,105000.0,1.0,117.5,IRON,already holding
+2025-04-23,uncovered,525000.0,1.0,169.14285714285714,TRVI,already holding
+2025-05-22,uncovered,51150.00000000001,1.0,29.009836065573772,URGN,already holding
+2025-05-27,covered_opposite,4425256.0,0.725664684709766,4.436771687526974,TEVA,no Webull bar on signal day
+2025-06-04,uncovered,728000.0,0.7142857142857143,155.82222222222222,RNA,no Webull bar on signal day
+2025-06-09,uncovered,1751940.0,0.9232051325958651,3.8593406593406594,AKRO,no Webull bar on signal day
+2025-06-11,uncovered,1523390.0,0.7483901036504113,9.075098814229248,VRNA,no Webull bar on signal day
+2025-06-11,uncovered,67500.0,1.0,5.217853347502657,AVDL,no Webull bar on signal day
+2025-06-18,uncovered,1610000.0,0.7437888198757764,5.571428571428571,RARE,already holding
+2025-06-25,uncovered,6665750.0,0.741214416982335,20.015810276679844,SLNO,no Webull bar on signal day
+2025-07-09,uncovered,225000.0,0.6666666666666666,108.0,VOR,already holding
+2025-07-21,uncovered,224000.0,1.0,5.239368165249089,AVDL,no Webull bar on signal day
+2025-07-23,uncovered,533330.0,1.0,57.13636363636363,PTCT,already holding
+2025-07-24,uncovered,6396250.0,0.8058628102403752,38.405693950177934,VERV,no Webull bar on signal day
+2025-07-28,uncovered,455680.0,0.7142731741573034,12.57258064516129,PTCT,already holding
+2025-07-29,uncovered,2037250.0,0.6662167137072034,16.615384615384617,PTCT,already holding
+2025-07-29,uncovered,381846.0,0.8245889704226311,11.104395604395604,ATYR,already holding
+2025-08-06,uncovered,7080245.0,0.7273759594477309,50.18852459016394,AKRO,no Webull bar on signal day
+2025-08-14,uncovered,4059100.0,0.8848513217215639,3.5420439844760674,APLS,no Webull bar on signal day
+2025-08-19,uncovered,314568.0,0.8391571933572392,7.807427785419533,RNA,no Webull bar on signal day
+2025-08-29,uncovered,1882920.0,0.9479956663055255,8.420454545454545,RNA,no Webull bar on signal day
+2025-09-08,covered_opposite,53906.99999999999,1.0,12.175438596491228,SLNO,no Webull bar on signal day
+2025-09-11,uncovered,171680.0,1.0,5.669745958429561,RNA,no Webull bar on signal day
+2025-09-22,uncovered,64476.0,1.0,7.342618384401114,BMRN,position limit
+2025-09-22,uncovered,60000.0,1.0,3.1222063718497384,ABCL,already holding
+2025-09-25,uncovered,53210.0,1.0,11.669829222011384,LRMR,already holding
+2025-10-01,covered_neutral,1996219.0,0.7254133940213975,30.214797136038182,GILD,position limit
+2025-10-06,covered_neutral,10484750.0,0.9424878990915377,2848.6,SCPH,no Webull bar on signal day
+2025-10-08,covered_opposite,4824150.0,0.8652612377309993,6.580926430517711,SLNO,no Webull bar on signal day
+2025-10-10,covered_opposite,4715000.0,0.8727465535524921,5.084252315835906,SLNO,no Webull bar on signal day
+2025-10-13,uncovered,367255.0,1.0,16.95438596491228,AVDL,no Webull bar on signal day
+2025-10-14,uncovered,150000.0,1.0,13.92280701754386,AVDL,no Webull bar on signal day
+2025-10-17,uncovered,6360572.0,0.954761930216339,55.46666666666667,ALNY,position limit
+2025-10-22,covered_opposite,1353140.0,0.7907090175443783,32.596363636363634,AVDL,no Webull bar on signal day
+2025-10-29,uncovered,16531450.0,0.7772578932882476,38.46783625730994,ETNB,no Webull bar on signal day
+2025-11-14,covered_opposite,1208238.0,0.7063260715190219,101.12987012987011,DAWN,no Webull bar on signal day
+2025-11-17,uncovered,50540.0,1.0,3.750741839762611,KROS,position limit
+2025-11-17,uncovered,836390.0,0.8453472662274776,203.1,ANAB,position limit
+2025-11-17,uncovered,1277508.0,0.7072362756241056,63.62337662337662,DAWN,no Webull bar on signal day
+2025-11-18,covered_neutral,1553165.0,0.6963374786323411,7.434718100890208,KROS,position limit
+2025-11-18,uncovered,360000.0,1.0,68.70967741935483,TARS,position limit
+2025-11-19,uncovered,3849560.0,0.6884615384615385,8.281385281385282,GPCR,position limit
+2025-11-19,covered_opposite,3716190.0,0.7731278540655887,90.51803278688524,AGIO,position limit
+2025-11-25,uncovered,280100.0,1.0,27.544444444444444,ELAN,position limit
+2025-11-26,uncovered,650000.0,1.0,154.27692307692308,KALV,no Webull bar on signal day
+2025-11-26,uncovered,110000.0,1.0,105.9,AVTX,position limit
+2025-12-02,covered_neutral,789600.0,0.9278115501519757,4.708860759493671,AMGN,already holding
+2025-12-03,uncovered,724000.0,1.0,4.01137171286425,SRPT,already holding
+2025-12-18,uncovered,886325.0,0.7450145262742222,14.375366568914956,DAWN,no Webull bar on signal day
+2025-12-19,uncovered,1469796.0,0.8866876763850221,331.0,CDTX,no Webull bar on signal day
+2025-12-19,uncovered,1031525.0,0.7404619374227479,18.09715242881072,DAWN,no Webull bar on signal day
+2025-12-22,uncovered,1844025.0,0.9608682094873985,12.291208791208792,BBIO,position limit
+2025-12-26,covered_opposite,1726479.9999999998,0.8621240906352811,4.774798927613941,AGIO,already holding
+2026-01-08,covered_opposite,638396.0,1.0,27.39130434782609,RPRX,already holding
+2026-01-12,uncovered,2487400.0,0.9770845059097854,7.213314580403188,OCUL,position limit
+2026-01-12,uncovered,76970.0,1.0,4.417322834645669,MLTX,position limit
+2026-01-12,covered_opposite,435000.0,1.0,6.372262773722627,ABT,position limit
+2026-01-12,uncovered,3481281.0,1.0,14.067415730337078,ERAS,position limit
+2026-01-13,covered_opposite,331385.0,1.0,24.9390243902439,CGON,position limit
+2026-01-15,uncovered,3881553.0,0.8797272638039465,21.45314009661836,DAWN,no Webull bar on signal day
+2026-01-16,uncovered,116870.0,1.0,13.12671635935661,NVAX,already holding
+2026-01-22,covered_neutral,303180.0,1.0,212.3,TBPH,no Webull bar on signal day
+2026-01-23,uncovered,862420.0,0.8551517821942904,7.070140280561122,INSM,already holding
+2026-01-23,uncovered,660000.0000000001,1.0,37.0,CNTA,no Webull bar on signal day
+2026-02-04,uncovered,286999.99999999994,1.0,36.0,TBPH,no Webull bar on signal day
+2026-02-11,uncovered,189440.0,1.0,5.889320388349515,VTRS,already holding
+2026-02-11,covered_neutral,13731955.0,0.73934119358824,184.6969696969697,AVDL,no Webull bar on signal day
+2026-02-19,uncovered,725000.0,1.0,500.5,KALV,no Webull bar on signal day
+2026-02-19,uncovered,83250.0,1.0,48.07692307692308,BMRN,position limit
+2026-02-19,uncovered,127910.0,1.0,16.555102040816326,CRVS,position limit
+2026-02-20,covered_neutral,736220.0,1.0,502.9,IMCR,position limit
+2026-02-24,uncovered,2215000.0,0.7223476297968398,139.6564417177914,TECH,already holding
+2026-02-24,uncovered,165000.0,1.0,15.573835480673935,ATAI,no Webull bar on signal day
+2026-03-03,uncovered,76950.0,1.0,3.0268817204301075,SLNO,no Webull bar on signal day
+2026-03-03,uncovered,2014975.0,0.8821325326616956,287.1186440677966,CMPX,already holding
+2026-03-12,uncovered,300000.0,1.0,65.88235294117646,CNTA,no Webull bar on signal day

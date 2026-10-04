@@ -1,0 +1,184 @@
+{
+  "is": {
+    "n_trades": 501,
+    "by_direction": {
+      "short": {
+        "n": 262,
+        "mean_gross": 8.110279369152004e-05,
+        "mean_with_tail_hedge": -0.007459352995706374,
+        "hit_rate": 0.5114503816793893
+      },
+      "long": {
+        "n": 239,
+        "mean_gross": 0.01391668445820626,
+        "mean_with_tail_hedge": 0.010091483998560644,
+        "hit_rate": 0.502092050209205
+      }
+    },
+    "mean_gross": 0.00668131041408877,
+    "median_gross": 0.0016728402437566,
+    "mean_with_tail_hedge": 0.0009132019776066346,
+    "top5_share_of_gross_sum": 1.4227074814830025,
+    "mean_gross_ex_top5": -0.0028527100584091864,
+    "mean_gross_trim5_each_side": 0.0020719693079990988,
+    "calendar_year": {
+      "2024": {
+        "return": -0.23278327692199574,
+        "sharpe": -1.3233471441442517,
+        "sessions": 251
+      },
+      "2025": {
+        "return": 0.007577881725397528,
+        "sharpe": 0.13138850499567695,
+        "sessions": 250
+      },
+      "2026": {
+        "return": -0.018395142011631505,
+        "sharpe": -0.21215798843109912,
+        "sessions": 68
+      }
+    },
+    "share_of_sessions_derisked": 0.7701754385964912,
+    "median_weight": 0.05,
+    "max_weight": 0.1,
+    "adv_participation": {
+      "median": 0.0009872265810818,
+      "p95": 0.0048293425497304,
+      "max": 0.0175496404114495
+    },
+    "stock_gross_exposure_when_invested": {
+      "median": 0.25,
+      "max": 0.8999999999999999
+    },
+    "stock_net_exposure_before_xbi": {
+      "median": 0.0,
+      "min": -0.6,
+      "max": 0.6
+    },
+    "worst_trade": {
+      "ticker": "FDMT",
+      "gross_return": -0.675962074735081,
+      "weight": 0.1,
+      "equity_hit_gross": -0.0675962074735081,
+      "equity_hit_with_hedge": -0.020204803020391512
+    },
+    "tail_hedge": {
+      "coverage": 0.6806387225548902,
+      "premium_pct_quantiles": {
+        "0.25": 0.020298072662022,
+        "0.5": 0.0443125542145391,
+        "0.75": 0.0786261625403929,
+        "0.9": 0.1396750075198517
+      },
+      "unhedged_reasons": {
+        "hedge contract did not trade on the entry day": 160
+      }
+    },
+    "spread": {
+      "available": true,
+      "pooled_full_spread_bps": 66.58046033363448,
+      "by_adv_tercile_full_spread_bps": {
+        "low": 127.90325892099328,
+        "mid": null,
+        "high": 84.2260021774165
+      }
+    },
+    "survivorship": {
+      "available": true,
+      "signals": 80,
+      "names": 29,
+      "priced": 75,
+      "mean_signed_5d": -0.007863661819349008
+    }
+  },
+  "oos": {
+    "n_trades": 149,
+    "by_direction": {
+      "short": {
+        "n": 73,
+        "mean_gross": -0.00026113799764367843,
+        "mean_with_tail_hedge": -0.014566394131119431,
+        "hit_rate": 0.4931506849315068
+      },
+      "long": {
+        "n": 76,
+        "mean_gross": 0.05281044938037164,
+        "mean_with_tail_hedge": 0.034018185012397624,
+        "hit_rate": 0.5394736842105263
+      }
+    },
+    "mean_gross": 0.02680893341664601,
+    "median_gross": 0.0095258951056609,
+    "mean_with_tail_hedge": 0.010215001942083895,
+    "top5_share_of_gross_sum": 1.057196579161479,
+    "mean_gross_ex_top5": -0.0015866216185944576,
+    "mean_gross_trim5_each_side": 0.009426734118022102,
+    "calendar_year": {
+      "2026": {
+        "return": -0.1510933765328164,
+        "sharpe": -0.7579944375850742,
+        "sessions": 139
+      }
+    },
+    "share_of_sessions_derisked": 0.7714285714285715,
+    "median_weight": 0.05,
+    "max_weight": 0.1,
+    "adv_participation": {
+      "median": 0.0008932140396882,
+      "p95": 0.0073086021060974,
+      "max": 0.0199993388648309
+    },
+    "stock_gross_exposure_when_invested": {
+      "median": 0.3,
+      "max": 0.9999999999999999
+    },
+    "stock_net_exposure_before_xbi": {
+      "median": 0.018863972903601693,
+      "min": -0.7999999999999999,
+      "max": 0.6360233331869632
+    },
+    "worst_trade": {
+      "ticker": "BIOA",
+      "gross_return": -0.5465393794749402,
+      "weight": 0.05,
+      "equity_hit_gross": -0.027326968973747014,
+      "equity_hit_with_hedge": -0.027326968973747014
+    },
+    "tail_hedge": {
+      "coverage": 0.7302631578947368,
+      "premium_pct_quantiles": {
+        "0.25": 0.0203835302420297,
+        "0.5": 0.0445331554001196,
+        "0.75": 0.07447975658556985,
+        "0.9": 0.1360514836090355
+      },
+      "unhedged_reasons": {
+        "hedge contract did not trade on the entry day": 41
+      }
+    },
+    "spread": {
+      "available": true,
+      "pooled_full_spread_bps": null,
+      "by_adv_tercile_full_spread_bps": {
+        "low": null,
+        "mid": 182.4688956711331,
+        "high": null
+      }
+    },
+    "survivorship": {
+      "available": true,
+      "signals": 6,
+      "names": 4,
+      "priced": 6,
+      "mean_signed_5d": -0.03321921098209751
+    }
+  },
+  "funnel": {
+    "stage1_pool": 7976
+  },
+  "backtests_run": {
+    "in_sample": 16,
+    "out_of_sample": 7,
+    "total": 23
+  }
+}
