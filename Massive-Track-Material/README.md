@@ -25,7 +25,7 @@ Jev. For that it needs the TypeSafe key in the same `.env` file:
     MASSIVE_API_KEY=...
     TYPESAFE_API_KEY=...
 
-NOTE: We have sent our TypeSafe API key to Christian. Feel free to use that to run the test. 
+**NOTE**: We have sent our TypeSafe API key to Christian. Feel free to use that to run the test. 
 
 Then, in section 2 (Configuration), set
 
@@ -43,4 +43,6 @@ The model is pinned (`jev-1.13.0`), so live labels are on the same scale as the 
 
 If the key is missing, the notebook stops at the first uncached filing with a message saying so.
 
+
+## 2. Factory Disruptions Against Satellite Data
 
